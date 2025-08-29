@@ -75,8 +75,9 @@ scaler = joblib.load(scaler_path)
 # -------------------------
 # Load dataset (for slider ranges)
 # -------------------------
-url = '''data.csv'''  # <-- replace with your dataset if online
-df = pd.read_csv(url)
+
+csv_path = os.path.join(os.path.dirname(__file__), "data.csv")
+df = pd.read_csv(csv_path)
 
 # The features used for training (excluding Close)
 feature_cols = ['Volume', 'SP_close', 'DJ_close', 'EG_close', 'USDI_Price',
