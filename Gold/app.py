@@ -35,7 +35,7 @@ st.image("https://th.bing.com/th/id/OIP.M-h4V94xqn8LkQBG1RmnjgHaFS?w=265&h=189&c
 # -------------------------
 # Load trained model & scaler
 # -------------------------
-model = joblib.load("xgb_model.pkl")
+model = joblib.load("gold_price_pridiction_ml_model/Gold/xgb_model.pkl")
 
 
 # -------------------------
