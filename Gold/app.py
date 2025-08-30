@@ -126,6 +126,6 @@ place.empty()
 progress_bar.empty()
 
 st.subheader("📈 Predicted Gold Closing Price")
-st.success(f"Estimated Gold Price: **${prediction:,.2f}**")
+st.success(f"Estimated Gold Price: **₹{prediction:,.2f}**")
 
 
