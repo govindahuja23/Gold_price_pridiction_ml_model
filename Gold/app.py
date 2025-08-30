@@ -60,7 +60,7 @@ st.markdown("""
 
 st.markdown(desc)
 
-st.image("https://th.bing.com/th/id/OIP.M-h4V94xqn8LkQBG1RmnjgHaFS?w=265&h=189&c=7&r=0&o=7&pid=1.7&rm=3")
+st.image("https://giphy.com/gifs/pudgypenguins-money-rich-jackpot-AMPa3ktdNPoq56vqty")
 
 # -------------------------
 # Load trained model & scaler
